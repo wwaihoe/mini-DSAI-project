@@ -50,6 +50,7 @@ Significant features: Age, Weight, BMI (engineered feature), Systolic blood pres
 ## Machine Learning
 
 Models we tried: Random Forest, Logistic Regression, Support Vector Classifier and K-Nearest Neighbours Classifier
+
 Models we focused on: Random Forest and K-Nearest Neighbours Classifier
 
 Maximum accuracy with cross validation (GridSearchCV) using K-Nearest Neighbours Classifier: 73.5%

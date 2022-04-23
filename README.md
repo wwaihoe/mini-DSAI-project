@@ -55,28 +55,24 @@ Created BMI feature to remove impossible entries where BMI is lower than the low
 
 ### Exploratory data analysis
 
-**Variables:**
-
-Characteristics: Age, Height, Weight, Gender 
-
-Health measurements: Systolic blood pressure, Diastolic blood pressure, Cholesterol levels, Glucose levels
-
-Behavioural traits: Smoking, Alcohol intake, Physical activity
-
-Label: Presence of cardiovascular disease
+Variables:
+| Type                | Variable |
+| ------------------- | --------------------------- |
+| Characteristics     | Age, Height, Weight, Gender |
+| Health measurements | Systolic blood pressure, Diastolic blood pressure, Cholesterol levels, Glucose levels |
+| Label               | Presence of cardiovascular disease |
 
 Utilised various data visualisation techniques to study different variables relationship with cardio
+<br/>
 
-#### Feature Selection
+### Feature Selection
 
 We employed different tests and coefficients for each type of variable to gain further insights:
-
-Continuous Variables: ANOVA F-test & point biserial correlation
-
-Binary Variables: Chi-square test
-
-Ordinal Variables: Polychoric correlation
-
+| Variable Type | Type of Test |
+| ------------- | ------------ |
+| Continuous    | ANOVA F-test & point biserial correlation |
+| Binary        | Chi-square test |
+| Ordinal       | Polychoric correlation |
 
 Through our exploratory data analysis we were able to distinguish between the features which showed an observable relationship with the presence of cardiovascular disease.
 

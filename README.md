@@ -51,3 +51,13 @@ Models are still useful as a preliminary tool for risk assessment.
 Possible improvements: 
 Larger dataset with more useful features (eg. Average heart rate, symptoms of cardiovascular disease and parents' history of cardiovascular disease)
 Voting ensemble to include more relevant models and balance out individual weaknesses of models
+
+
+
+**References**
+
+A. Barnes, V., & W. Orme-Johnson, D. (2012). Prevention and Treatment of Cardiovascular Disease in Adolescents and Adults through the Transcendental Meditation® Program: A Research Review Update. Current Hypertension Reviews, 8(3), 227–242. https://doi.org/10.2174/157340212803530411
+
+Cardiovascular diseases. (2019, June 11). World Health Organization. https://www.who.int/health-topics/cardiovascular-diseases#tab=tab_1
+
+Why do you need to scale data in KNN. (2017, June 26). Stack Exchange. https://stats.stackexchange.com/questions/287425/why-do-you-need-to-scale-data-in-knn/287439#287439

@@ -53,13 +53,15 @@ Models we tried: Random Forest, Logistic Regression, Support Vector Classifier a
 
 Models we focused on: Random Forest and K-Nearest Neighbours Classifier
 
-Maximum accuracy with cross validation (GridSearchCV) using K-Nearest Neighbours Classifier: 73.5%
+We used GridSearchCV to implement 5 fold cross validation for hyperparameter tuning.
+
+Maximum accuracy achieved: 73.5% (K-Nearest Neighbours Classifier) with true positive rate of 68.1%
 
 
 
 ## Closing Insights
 
-Models not accurate enough as diagnosis tool (would require reliable accuracy above 90%). However, the models are still useful as a preliminary tool for risk assessment.
+Models had relatively high false negative rates above 30%, which would provide too much false assurance that would make individuals neglect the need for further screening and treatment. Models were also not accurate enough as diagnosis tool (would require reliable accuracy above 90%). However, the models are still useful as a preliminary tool for risk assessment.
 
 Possible improvements: 
 Larger dataset with more useful features (eg. Average heart rate, symptoms of cardiovascular disease and parents' history of cardiovascular disease)

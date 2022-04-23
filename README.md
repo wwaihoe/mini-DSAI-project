@@ -1,6 +1,6 @@
 # SC1015 Mini-Project
 
-In this project, using data from the [Cardiovascular Disease Dataset](https://www.kaggle.com/datasets/sulianova/cardiovascular-disease-dataset), our team aims to enhance the early detection process of cardiovascular diseases to help prevent deaths from these diseases.
+Using data from the [Cardiovascular Disease Dataset](https://www.kaggle.com/datasets/sulianova/cardiovascular-disease-dataset), our team aims to enhance the early detection process of cardiovascular diseases to help prevent deaths from these diseases.
 
 ![Project_Cover](https://user-images.githubusercontent.com/53988015/164910402-dd8a8ddc-cdb2-4a0b-8c19-c5f449c47b77.png)
 

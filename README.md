@@ -27,7 +27,7 @@ We realised that we could explore this dataset to analyse patterns and trends re
 
 #### [2. Exploratory Data Analysis](EDA.ipynb)
 
-#### [3. Feature Selection](Feature Selection.ipynb)
+#### [3. Feature Selection](https://github.com/wwaihoe/mini-DSAI-project/blob/main/Feature%20Selection.ipynb)
 
 #### [4. Machine Learning](ML_Models.ipynb)
 

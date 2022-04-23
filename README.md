@@ -5,7 +5,9 @@ Mini project on data science and machine learning for SC1015 at NTU.
 
 ## Introduction
 
-We decided to explore a dataset of medical examinations of patients for the presence of cardiovascular disease. It consists of characteristics, health measurements, behavioural traits and the presence of cardiovascular disease. 
+We decided to explore a dataset of medical examinations of patients for the presence of cardiovascular disease. Cardiovascular diseases are the leading cause of death in the world, claiming the lives of over 17.9 million people annually (World Health Organisation, 2019), and we hoped to explore possible ways to use data analysis and machine learning to provide practical solutions to reduce the impact of cardiovascular diseases on the population. 
+
+The dataset consists of characteristics, health measurements, behavioural traits and the presence of cardiovascular disease. 
 
 Dataset: Cardiovascular Disease dataset | https://www.kaggle.com/datasets/sulianova/cardiovascular-disease-dataset
 

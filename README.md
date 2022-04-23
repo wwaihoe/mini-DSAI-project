@@ -27,13 +27,13 @@ We realised that we could explore this dataset to analyse patterns and trends re
 
 
 ## Notebooks
-**[1. Data Preparation](Data_Preparation.ipynb)
+#### [1. Data Preparation](Data_Preparation.ipynb)
 
-**[2. Exploratory Data Analysis](EDA.ipynb)
+#### [2. Exploratory Data Analysis](EDA.ipynb)
 
-**[3. Feature Selection](Feature Selection.ipynb)
+#### [3. Feature Selection](Feature Selection.ipynb)
 
-**[4. Machine Learning](ML_Models.ipynb)
+#### [4. Machine Learning](ML_Models.ipynb)
 
 
 

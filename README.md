@@ -1,13 +1,61 @@
-# mini-DSAI-project - Predicting Cardiovascular Disease
-Mini project on data science and machine learning for SC1015 at NTU.
+# SC1015 Mini-Project
 
+In this project, using data from the [Cardiovascular Disease Dataset](https://www.kaggle.com/datasets/sulianova/cardiovascular-disease-dataset), our team aims to enhance the early detection process of cardiovascular diseases to help prevent deaths from these diseases.
 
+![Project_Cover](https://user-images.githubusercontent.com/53988015/164910402-dd8a8ddc-cdb2-4a0b-8c19-c5f449c47b77.png)
+
+Contents
+========
+ 
+ * [Introduction](#introduction)
+ * [Problem Definition](#problem-definition)
+ * [Project Structure](#project-structure)
+    * [Data Preparation](#data-preparation)
+    * [Exploratory data analysis](#exploratory-data-analysis)
+    * [Feature Selection](#feature-selection)
+    * [Machine Learning](#machine-learning)
+  * [Insights & Conclusion](#insights-conclusion)
+ * [References](#references)
 
 ## Introduction
+Globally, the leading cause of death is cardiovascular diseases, amounting to 32% of all death and it is known that early detection can prevent cardiovascular disease (A. Barnes & W. Orme-Johnson, 2012).
 
-We decided to explore a dataset of medical examinations of patients for the presence of cardiovascular disease. It consists of characteristics, health measurements, behavioural traits and the presence of cardiovascular disease. 
+Hence, we decided to explore [Cardiovascular Disease Dataset](https://www.kaggle.com/datasets/sulianova/cardiovascular-disease-dataset), a dataset of medical examinations of patients that could help us develop a machine learning model to help in early detection of cardiovascular disease.
 
-Dataset: Cardiovascular Disease dataset | https://www.kaggle.com/datasets/sulianova/cardiovascular-disease-dataset
+Through our exploration, we realised we were able to: 
+  - Analyse patterns and trends regarding the features and their relation to the presence of cardiovascular disease. 
+  - Create machine learning models that can predict the presence of cardiovascular disease through easily obtainable medical examinations information.
+
+This would help to:
+  - Alert patients of the presence of cardiovascular disease without the need for a thorough medical examination. 
+  - Provide medical professionals with a much more efficient way of screening patients for cardiovascular disease. 
+  - Allow patients to receive timely treatment and help prevent instances late diagnosis which prevents full recovery
+
+## Problem Definition
+
+Can we predict whether an individual has cardiovascular disease or not based on his personal attributes?
+
+## Project Structure
+
+[1. Data Preparation](Data_Preparation.ipynb)
+
+[2. Exploratory Data Analysis](EDA.ipynb)
+
+[3. Feature Selection](https://github.com/wwaihoe/mini-DSAI-project/blob/main/Feature%20Selection.ipynb)
+
+[4. Machine Learning](ML_Models.ipynb)
+
+
+### Data Preparation
+
+Found no NULL values in dataset to clean. 
+
+Removed all erroneous entries where systolic blood pressure is lower than diastolic blood pressure. 
+
+Created BMI feature to remove impossible entries where BMI is lower than the lowest BMI ever recorded and higher than the highest BMI ever recorded.
+
+
+### Exploratory data analysis
 
 **Variables:**
 Characteristics:
@@ -18,40 +66,30 @@ Behavioural traits:
 Smoking, Alcohol intake, Physical activity
 Presence of cardiovascular disease
 
-We realised that we could explore this dataset to analyse patterns and trends regarding the features and their relation to the presence of cardiovascular disease. Furthermore, being able to create machine learning models that can predict the presence of cardiovascular disease based on information that can be easily obtained through medical examinations could be extremely helpful to medical instituitions. This would not only help to alert patients of the presence of cardiovascular disease without the need for a thorough medical examination, but also provide medical professionals with a much more efficient way of screening patients for cardiovascular disease. This would allow patients to receive more timely treatment and help prevent instances where patients only find out about their condition when it is too late for treatment or full recovery.
+Utilised various data visualisation techniques to study different variables relationship with cardio
 
+#### Feature Selection
 
+We employed different tests and coefficients for each type of variable to gain further insights:
 
-## Notebooks
-#### [1. Data Preparation](Data_Preparation.ipynb)
+Continuous Variables: ANOVA F-test & point biserial correlation
 
-#### [2. Exploratory Data Analysis](EDA.ipynb)
+Binary Variables: Chi-square test
 
-#### [3. Feature Selection](https://github.com/wwaihoe/mini-DSAI-project/blob/main/Feature%20Selection.ipynb)
+Ordinal Variables: Polychoric correlation
 
-#### [4. Machine Learning](ML_Models.ipynb)
-
-
-
-## Data Preparation
-
-Found no NULL values in dataset to clean. Removed all erroneous entries where systolic blood pressure is lower than diastolic blood pressure. Created BMI feature to remove impossible entries where BMI is lower than the lowest BMI ever recorded and higher than the highest BMI ever recorded.
-
-
-
-## Exploratory data analysis
 
 Through our exploratory data analysis we were able to distinguish between the features which showed an observable relationship with the presence of cardiovascular disease.
 
-Significant features: Age, Weight, BMI (engineered feature), Systolic blood pressure, Diastolic blood pressure, Cholesterol levels, Glucose levels and Physical activity
+Significant features: 
+- Age, Weight, BMI (engineered feature), Systolic blood pressure, Diastolic blood pressure, Cholesterol levels, Glucose levels and Physical activity
 
 
+### Machine Learning
 
-## Machine Learning
+Models tried: Random Forest, Logistic Regression, Support Vector Classifier and K-Nearest Neighbours Classifier
 
-Models we tried: Random Forest, Logistic Regression, Support Vector Classifier and K-Nearest Neighbours Classifier
-
-Models we focused on: Random Forest and K-Nearest Neighbours Classifier
+Models focused on: Random Forest and K-Nearest Neighbours Classifier
 
 We used GridSearchCV to implement 5 fold cross validation for hyperparameter tuning.
 
@@ -59,13 +97,17 @@ Maximum accuracy achieved: 73.5% (K-Nearest Neighbours Classifier) with true pos
 
 
 
-## Closing Insights
+## Insights &amp; Conclusion <a name="insights-conclusion"></a>
 
-Models had relatively high false negative rates above 30%, which would provide too much false assurance that would make individuals neglect the need for further screening and treatment. Models were also not accurate enough as diagnosis tool (would require reliable accuracy above 90%). However, the models are still useful as a preliminary tool for risk assessment.
+Models had relatively **high false negative rates above 30%**, which would provide too much false assurance.
+
+Individuals might neglect the need for further screening and treatment. 
+
+Models were also not accurate enough as diagnosis tool (would require reliable accuracy above 90%). However, the models are still useful as a preliminary tool for risk assessment.
 
 Possible improvements: 
-Larger dataset with more useful features (eg. Average heart rate, symptoms of cardiovascular disease and parents' history of cardiovascular disease)
-Voting ensemble to include more relevant models and balance out individual weaknesses of models
+- Larger dataset with more useful features (eg. Average heart rate, symptoms of cardiovascular disease and parents' history of cardiovascular disease)
+- Voting ensemble to include more relevant models and balance out individual weaknesses of models
 
 
 

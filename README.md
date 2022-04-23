@@ -33,6 +33,12 @@ We realised that we could explore this dataset to analyse patterns and trends re
 
 
 
+## Data Preparation
+
+Found no NULL values in dataset to clean. Removed all erroneous entries where systolic blood pressure is lower than diastolic blood pressure. Created BMI feature to remove impossible entries where BMI is lower than the lowest BMI ever recorded and higher than the highest BMI ever recorded.
+
+
+
 ## Exploratory data analysis
 
 Through our exploratory data analysis we were able to distinguish between the features which showed an observable relationship with the presence of cardiovascular disease.

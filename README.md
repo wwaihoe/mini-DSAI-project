@@ -48,8 +48,6 @@ Can we predict whether an individual has cardiovascular disease or not based on 
 
 ### Data Preparation
 
-Found no NULL values in dataset to clean. 
-
 Removed all erroneous entries where systolic blood pressure is lower than diastolic blood pressure. 
 
 Created BMI feature to remove impossible entries where BMI is lower than the lowest BMI ever recorded and higher than the highest BMI ever recorded.
@@ -58,13 +56,14 @@ Created BMI feature to remove impossible entries where BMI is lower than the low
 ### Exploratory data analysis
 
 **Variables:**
-Characteristics:
-Age, Height, Weight, Gender 
-Health measurements:
-Systolic blood pressure, Diastolic blood pressure, Cholesterol levels, Glucose levels
-Behavioural traits:
-Smoking, Alcohol intake, Physical activity
-Presence of cardiovascular disease
+
+Characteristics: Age, Height, Weight, Gender 
+
+Health measurements: Systolic blood pressure, Diastolic blood pressure, Cholesterol levels, Glucose levels
+
+Behavioural traits: Smoking, Alcohol intake, Physical activity
+
+Label: Presence of cardiovascular disease
 
 Utilised various data visualisation techniques to study different variables relationship with cardio
 

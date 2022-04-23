@@ -4,11 +4,13 @@ Mini project on data science and machine learning for SC1015 at NTU.
 
 
 **#Introduction**
+
 We decided to explore a dataset of medical examinations of patients for the presence of cardiovascular disease. It consists of characteristics, health measurements, behavioural traits and the presence of cardiovascular disease. 
 
 Dataset: Cardiovascular Disease dataset | https://www.kaggle.com/datasets/sulianova/cardiovascular-disease-dataset
 
 **Variables:**
+
 Characteristics:
 Age, Height, Weight, Gender 
 
@@ -25,6 +27,7 @@ We realised that we could explore this dataset to analyse patterns and trends re
 
 
 **#Exploratory data analysis**
+
 Through our exploratory data analysis we were able to distinguish between the features which showed an observable relationship with the presence of cardiovascular disease.
 
 Significant features: Age, Weight, BMI (engineered feature), Systolic blood pressure, Diastolic blood pressure, Cholesterol levels, Glucose levels and Physical activity
@@ -32,6 +35,7 @@ Significant features: Age, Weight, BMI (engineered feature), Systolic blood pres
 
 
 **#Machine Learning**
+
 Models we tried: Random Forest, Logistic Regression, Support Vector Classifier and K-Nearest Neighbours Classifier
 Models we focused on: Random Forest and K-Nearest Neighbours Classifier
 
@@ -40,6 +44,7 @@ Maximum accuracy with cross validation (GridSearchCV): 73.5%
 
 
 **#Closing Insights**
+
 Models not accurate enough as diagnosis tool (would require reliable accuracy above 90%).
 Models are still useful as a preliminary tool for risk assessment.
 

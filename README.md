@@ -1,4 +1,4 @@
-# mini-DSAI-project
+# mini-DSAI-project - Predicting Cardiovascular Disease
 Mini project on data science and machine learning for SC1015 at NTU.
 
 
@@ -27,7 +27,7 @@ We realised that we could explore this dataset to analyse patterns and trends re
 
 #### [2. Exploratory Data Analysis](EDA.ipynb)
 
-#### [3. Feature Selection](Feature_Selection.ipynb)
+#### [3. Feature Selection](Feature Selection.ipynb)
 
 #### [4. Machine Learning](ML_Models.ipynb)
 
@@ -60,7 +60,7 @@ Voting ensemble to include more relevant models and balance out individual weakn
 
 
 
-# References
+## References
 
 A. Barnes, V., & W. Orme-Johnson, D. (2012). Prevention and Treatment of Cardiovascular Disease in Adolescents and Adults through the Transcendental Meditation® Program: A Research Review Update. Current Hypertension Reviews, 8(3), 227–242. https://doi.org/10.2174/157340212803530411
 
